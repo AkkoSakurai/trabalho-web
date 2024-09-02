@@ -1,0 +1,49 @@
+/* pagina inteira pra customização, seja redimencionando imagens a adicionando cores.*/
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://images.ctfassets.net/hnoi7ctzfs57/6bIuztSH6s3Ihp5PSrIwOq/0568386df29b591bcebeae31ec35eafa/ASK4K_CS01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px)
+}
+
+table{
+    background-color: black;
+}
+h2{ 
+    font-size: 50px;
+    color: firebrick;
+}
+p{
+    color: aliceblue;
+    font-size: 20px;
+}
+/*Minha ideia original era colocar uma borda envolta do quadrado debaixo da parte de selecao de paginas mas nao consegui*/
+.quadradinho{
+    background-color: black;
+    width: 49vw 
+}
+th{
+    color: aliceblue;
+}
+ul{
+    color: aliceblue;
+    font-size: 20px;
+}
+th:hover{
+    transform: scale(1.2);
+    border: none;
+}
+.botao:hover{
+    transform: scale(1.2);
+}
+.botao{
+    background-color: black;
+    color: greenyellow;
+}
+.gif{
+    padding: 150px;
+}
